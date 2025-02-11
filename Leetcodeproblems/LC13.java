@@ -42,4 +42,4 @@ public class LC13 {
 
         return result;
     }
-}
+} 
