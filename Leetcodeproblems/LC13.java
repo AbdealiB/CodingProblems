@@ -1,5 +1,3 @@
-package codingProblems.LeetcodeProblems;
-
 import java.util.HashMap;
 
 public class LC13 {

@@ -1,5 +1,3 @@
-package codingProblems.LeetcodeProblems;
-
 public class LC58 {
     /*
      * LeetCode Problem 58. Length of Last Word

@@ -1,6 +1,3 @@
-
-package codingProblems.LeetcodeProblems;
-
 public class LC125 {
     /*
      * LeetCode 125: Valid Palindrome
