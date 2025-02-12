@@ -6,6 +6,8 @@ public class LC13 {
     /*
      * LeetCode 13: Roman to Integer
      * https://leetcode.com/problems/roman-to-integer/description/
+     * Time Complexity: O(n)
+     * Space Complexity: O(1)
      */
     public static void main(String[] args) {
         System.out.println(romanToInt("III")); // Output: 3

@@ -5,6 +5,8 @@ public class LC125 {
     /*
      * LeetCode 125: Valid Palindrome
      * https://leetcode.com/problems/valid-palindrome/description/
+     * Time Complexity: O(n)
+     * Space Complexity: O(1)
      */
     public static void main(String[] args) {
         String s = "A man, a plan, a canal: Panama";

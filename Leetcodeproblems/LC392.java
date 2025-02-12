@@ -4,6 +4,8 @@ public class LC392 {
     /* 
      * LeetCode Problem 392. Is Subsequence
      * https://leetcode.com/problems/is-subsequence/description/
+     * Time Complexity: O(n)
+     * Space Complexity: O(1)
      */
     public static void main(String[] args) {
         System.out.println(isSubsequence("abc", "ahbgdc")); // Output: true
