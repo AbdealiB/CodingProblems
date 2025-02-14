@@ -1,5 +1,3 @@
-package codingProblems.LeetcodeProblems;
-
 public class LC55 {
     /*
      * LeetCode 55: Jump Game
