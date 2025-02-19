@@ -1,5 +1,3 @@
-package codingProblems.Algorithms;
-
 public class BinarySearch {
     /*
      * binSearch:
