@@ -20,7 +20,7 @@ public class LC141 {
         System.out.println(hasCycle(head)); // Output: true
     }
 
-    public static boolean hasCycle(ListNode head) {
+    private static boolean hasCycle(ListNode head) {
         if (head == null) {
             return false;
         }

@@ -17,7 +17,7 @@ public class LC290 {
 
     }
 
-    public static boolean wordPattern(String pattern, String s) {
+    private static boolean wordPattern(String pattern, String s) {
         HashMap<Character, String> map = new HashMap<>();
         String[] sArray = s.split(" ");
 

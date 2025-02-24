@@ -19,7 +19,7 @@ public class LC20 {
         System.out.println(isValid("(){}}{"));
     }
 
-    public static boolean isValid(String s) {
+    private static boolean isValid(String s) {
         if (s.length() == 0) {
             return true;
         }

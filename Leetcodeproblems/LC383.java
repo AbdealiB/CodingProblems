@@ -10,9 +10,9 @@ public class LC383 {
      * Space Complexity: O(1)
      */
     public static void main(String[] args) {
-        System.out.println(canConstruct1("a", "b")); // Output: false
-        System.out.println(canConstruct1("aa", "ab")); // Output: false
-        System.out.println(canConstruct1("aa", "aab")); // Output: true
+        System.out.println(canConstruct("a", "b")); // Output: false
+        System.out.println(canConstruct("aa", "ab")); // Output: false
+        System.out.println(canConstruct("aa", "aab")); // Output: true
 
         System.out.println(canConstructWithHashMap("a", "b")); // Output: false
         System.out.println(canConstructWithHashMap("aa", "ab")); // Output: false
@@ -20,7 +20,7 @@ public class LC383 {
 
     }
 
-    public static boolean canConstruct1(String ransomNote, String magazine) {
+    private static boolean canConstruct(String ransomNote, String magazine) {
         // Time Complexity: O(n)
         // Space Complexity: O(1)
 
@@ -39,7 +39,7 @@ public class LC383 {
         return !x;
     }
 
-    public static boolean canConstructWithHashMap(String ransomNote, String magazine) {
+    private static boolean canConstructWithHashMap(String ransomNote, String magazine) {
         // Time Complexity: O(n)
         // Space Complexity: O(n)
 

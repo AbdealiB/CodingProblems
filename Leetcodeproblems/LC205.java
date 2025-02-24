@@ -21,7 +21,7 @@ public class LC205 {
         System.out.println(isIsomorphic("abab", "adcd")); // Output: false
     }
 
-    public static boolean isIsomorphicUsingCount(String s, String t) {
+    private static boolean isIsomorphicUsingCount(String s, String t) {
         // Time Complexity: O(n)
         // Space Complexity: O(1)
 
@@ -46,7 +46,7 @@ public class LC205 {
         return true;
     }
 
-    public static boolean isIsomorphic(String s, String t) {
+    private static boolean isIsomorphic(String s, String t) {
         // Time Complexity: O(n)
         // Space Complexity: O(n)
 

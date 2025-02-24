@@ -17,7 +17,7 @@ public class LC228 {
         System.out.println(summaryRanges(nums2)); // Output: ["0","2->4","6","8->9"]
     }
 
-    public static List<String> summaryRanges(int[] nums) {
+    private static List<String> summaryRanges(int[] nums) {
         List<String> arrayList = new ArrayList<>();
 
         if (nums.length == 0) {

@@ -22,7 +22,7 @@ public class LC219 {
         System.out.println(containsNearbyDuplicate(nums3, k3)); // Output: false
     }
 
-    public static boolean containsNearbyDuplicate(int[] nums, int k) {
+    private static boolean containsNearbyDuplicate(int[] nums, int k) {
         Map<Integer, Integer> map = new HashMap<>();
         int index = 0;
         for (int i : nums) {

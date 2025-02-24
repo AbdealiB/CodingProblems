@@ -21,7 +21,7 @@ public class LC42 {
 
     }
 
-    public static int trap(int[] height) {
+    private static int trap(int[] height) {
         int n = height.length;
         if (n == 0) {
             return 0;

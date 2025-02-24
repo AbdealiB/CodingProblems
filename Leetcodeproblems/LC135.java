@@ -23,7 +23,7 @@ public class LC135 {
 
     }
 
-    public static int candy(int[] ratings) {
+    private static int candy(int[] ratings) {
         if (ratings.length <= 1) {
             return ratings.length;
         }

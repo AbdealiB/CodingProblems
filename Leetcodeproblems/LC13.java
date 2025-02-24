@@ -15,7 +15,7 @@ public class LC13 {
         System.out.println(romanToInt("LIV")); // Output: 1994
     }
 
-    public static int romanToInt(String s) {
+    private static int romanToInt(String s) {
         int result = 0;
         int prev = 0;
 

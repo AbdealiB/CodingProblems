@@ -23,7 +23,7 @@ public class LC151 {
         System.out.println(reverseWordsJava8("Alice does not even like bob")); // Output: "bob like even not does Alice"
     }
 
-    public static String reverseWordsJava8(String s) {
+    private static String reverseWordsJava8(String s) {
         String[] a = s.trim().split("\\s+");
         List<String> arr = Arrays.stream(a).collect(Collectors.toList()).reversed();
 
@@ -36,7 +36,7 @@ public class LC151 {
         return sb.toString().trim();
     }
 
-    public static String reverseWords(String s) {
+    private static String reverseWords(String s) {
         String[] arr = s.trim().split("\\s+");
         StringBuilder sb = new StringBuilder();
 
