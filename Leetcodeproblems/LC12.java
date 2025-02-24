@@ -1,5 +1,3 @@
-package codingProblems.LeetcodeProblems;
-
 public class LC12 {
     /*
      * LeetCode 12: Integer to Roman
