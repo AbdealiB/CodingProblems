@@ -1,6 +1,3 @@
-import java.util.HashMap;
-import java.util.Map;
-
 public class LC1524 {
     /*
      * Leetcode Problem 1524: Number of Sub-arrays With Odd Sum
