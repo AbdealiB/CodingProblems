@@ -4,7 +4,7 @@ import java.util.HashMap;
 public class LC509 {
     /*
      * LC509. Fibonacci Number
-     * https://leetcode.com/problems/fibonacci-number/
+     * https://leetcode.com/problems/fibonacci-number/description/
      * Dynamic Programming (Memoization)
      * Time Complexity: O(1) with memoization
      * Space Complexity: O(1) with memoization
