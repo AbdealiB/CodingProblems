@@ -1,5 +1,3 @@
-package codingProblems.LeetcodeProblems;
-
 import java.util.Arrays;
 
 public class LC1140 {
