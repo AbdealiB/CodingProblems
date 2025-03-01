@@ -1,9 +1,15 @@
+package codingProblems.LeetcodeProblems;
+
 public class LC1911 {
     /*
      * LC1911. Maximum Alternating Subsequence Sum
      * https://leetcode.com/problems/maximum-alternating-subsequence-sum/
      * description/
+     * Memoization
      * Dynamic Programming
+     * 
+     * Time Complexity: O(n)
+     * Space Complexity: O(n)
      */
     static int N;
     static long[][] dp;
@@ -23,6 +29,9 @@ public class LC1911 {
     // Memoization Approach
     private static long maxAlternatingSumMemoization(int[] nums) {
         // State of DP array is nums[i] and even / odd (0, 1)
+        // Time Complexity: O(n)
+        // Space Complexity: O(n)
+
         N = nums.length;
         dp = new long[N + 1][2];
 
@@ -61,6 +70,9 @@ public class LC1911 {
 
     // Bottom Up Approach
     private static long maxAlternatingSumBU(int[] nums) {
+        // Time Complexity: O(n)
+        // Space Complexity: O(n)
+
         N = nums.length;
 
         // State of DP is Index AND after adding the current element will the length of
